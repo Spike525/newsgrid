@@ -98,3 +98,27 @@ h1, h2, h3, h4, h5, h6 {
     margin-right: .5rem;
     color: #777;
 }
+
+/* Showcase */
+
+#showcase {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+    position: relative;
+}
+
+#showcase::before {
+    content:'';
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url('../img/articles/sports1.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+}
+
+#showcase .showcase-content {
+    z-index: 2;
+}
