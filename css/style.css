@@ -43,6 +43,10 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: .55rem;
 }
 
+p {
+    margin-bottom: 0.5rem;
+}
+
 /* Utility */
 .container {
     max-width: var(--max-width);
@@ -72,6 +76,10 @@ h1, h2, h3, h4, h5, h6 {
 .bg-secondary h3, 
 .bg-secondary a {
     color: #fff;
+}
+
+.l-heading {
+    font-size: 3rem;
 }
 
 .list li {
@@ -258,7 +266,20 @@ h1, h2, h3, h4, h5, h6 {
     grid-row: 1 /span 3;
 }
 
+/* Article page */
 
+#article .meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #eee;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+#article .meta .category {
+    margin-top: 0.4rem;
+}
 
 /* Footer */
 
@@ -275,9 +296,6 @@ h1, h2, h3, h4, h5, h6 {
     width: 150px;
 }
 
-#main-footer .container-footer p {
-    margin-bottom: 0.5rem;
-}
 
 #main-footer .container-footer {
     display: grid;
