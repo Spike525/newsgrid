@@ -31,6 +31,10 @@
     grid-column: 1;
 }
 
+#main-footer .container-footer {
+    padding: 1rem;
+}
+
 @media(max-width:600px) {
     /* Stack Grid Items */
 
@@ -39,9 +43,7 @@
     }
 
 
-    #main-footer .container-footer {
-        padding: 1rem;
-    }
+
 
     #showcase .showcase-container,
     #home-articles .articles-container,
